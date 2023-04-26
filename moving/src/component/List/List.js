@@ -7,14 +7,14 @@ function ListHeading({ text }) {
 
 function List({ heading, text }) {
   return (
-    <sectio class="p-article">
+    <section class="p-article">
       {heading && <ListHeading text={text} />}
       <ul class="c-list">
         <li>Item1</li>
         <li>Item2</li>
         <li>Item3</li>
       </ul>
-    </sectio>
+    </section>
   );
 }
 
